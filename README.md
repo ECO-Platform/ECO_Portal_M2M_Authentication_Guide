@@ -1,3 +1,8 @@
+# ECO Portal Machine-to-Machine (M2M) Authentication Guide
+
+This document explains how to obtain an access token for accessing the API of the new ECO Portal at `https://portal.eco-platform.org/`. Registration and activation of a user account is required.
+
+
 ## Step 1: Obtain token from Identity Provider (auth0)
 
 ### Overview
