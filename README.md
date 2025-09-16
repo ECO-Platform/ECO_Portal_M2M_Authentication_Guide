@@ -122,7 +122,7 @@ def get_access_token():
         raise Exception(f"Error: {response.status_code} - {response.text}")
 ```
 
-### C#
+### C-Sharp
 
 ```csharp
 using System;
