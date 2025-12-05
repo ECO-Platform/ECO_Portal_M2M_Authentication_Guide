@@ -20,7 +20,7 @@ Both steps are explained in detail below.
 
 This guide explains how to obtain an ID token from Auth0 using the Client Credentials flow with your application's client ID and client secret. ID tokens are JSON Web Tokens (JWTs) that contain identity information about the authenticated user.
 
-**IMPORTANT:** the ID token is valid for 24 hours, and there is a quota of maximum 10 tokens per day and maximum 10 tokens per week for each client. Make sure that your implementation respects this quota and does not request unnecessarily many tokens but caches and reuses them instead while they are still valid.
+**IMPORTANT:** the ID token is valid for 24 hours, and there is a quota of maximum of 10 tokens per hour and 60 per day for each client. Make sure that your implementation respects this quota and does not request unnecessarily many tokens but caches and reuses them instead while they are still valid.
 
 
 ### Prerequisites
